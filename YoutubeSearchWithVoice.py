@@ -27,11 +27,6 @@ time.sleep(2)
 search=driver.find_element_by_xpath('/html/body/ytd-app/div/div/ytd-masthead/div[3]/div[2]/ytd-searchbox/form/div/div[1]/input')
 search.send_keys(teext)
 
-
-#treanding=driver.find_element_by_xpath('/html/body/ytd-app/div/app-drawer/div[2]/div/div[2]/div[2]/ytd-guide-renderer/div[1]/ytd-guide-section-renderer[1]/div/ytd-guide-entry-renderer[2]/a/paper-item')
-#treanding.click()
-#chaina=driver.find_element_by_xpath('/html/body/ytd-app/div/ytd-page-manager/ytd-browse[2]/ytd-two-column-browse-results-renderer/div[1]/ytd-section-list-renderer/div[1]/div[2]/ytd-channel-list-sub-menu-renderer/div/ytd-channel-list-sub-menu-avatar-renderer[1]/a')
-#chaina.click()
 btn=driver.find_element_by_xpath('//*[@id="search-icon-legacy"]')
 btn.click()
 
